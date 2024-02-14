@@ -142,7 +142,7 @@
 
  /*Sobre Nós*/
 
- .sobre-nos {
+ .contate-nos {
     background-color: #1f1e1f;
     width: 100%;
     padding-bottom: 5rem;
@@ -152,7 +152,7 @@
     justify-content: center;
  }
 
- .sobre-nos img {
+ .contate-nos img {
     width: 200px;
     height: 200px;
     margin-top: 10rem;
@@ -165,20 +165,20 @@
     justify-content: space-between;
  }
 
- .contentsobre {
+ .contentcontato {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
  }
 
- .contentsobre h2 {
+ .contentcontato h2 {
     font-size: 4rem;
     margin-bottom: 1rem;
     color: #DAA520;
  }
 
- .contentsobre p {
+ .contentcontato p {
     text-align: center;
     font-size: 1.2rem;
     width: 600px;
@@ -284,13 +284,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: white;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
  }
 
  .contatos h3 {
-    font-size: 6rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
     color: #DAA520;
  }
@@ -339,7 +339,7 @@
        padding-left: 0px;
     }
 
-    .sobre-nos img {
+    .contate-nos img {
        width: 600px;
        margin-left: -2px;
     }
@@ -460,12 +460,12 @@
 }
 
 @media (max-width: 645px) {
-    .sobre-nos img {
+    .contate-nos img {
         width: 400px;
         margin-left: 10px;
     }
 
-    .contentsobre p {
+    .contentcontato p {
         text-align: center;
         width: 400px;
      }
@@ -500,13 +500,13 @@
     }
 
 
-    .sobre-nos img {
+    .contate-nos img {
         width: 300px;
         height: auto;
         margin-left: 10px;
     }
 
-    .contentsobre p {
+    .contentcontato p {
         text-align: center;
         width: 200px;
      }

@@ -1,12 +1,22 @@
-let show = true;
-const menuContent = document.querySelector('.content');
-const menuToggle = menuContent.querySelector('.menu-toggle');
+document.addEventListener('DOMContentLoaded', function() {
+    const pedirAgoraButtons = document.querySelectorAll('.pedir');
 
+    pedirAgoraButtons.forEach(function(botao) {
+        botao.addEventListener('click', function() {
+            const idDoPedido = botao.id.replace('Pedido', '');
 
-menuToggle.addEventListener('click', () => {
+            alert(`Pedido Adicionado`);
+        });
+    });
 
-    document.body.style.overflow = show ? 'hidden' : 'initial'
+    
+    let show = true;
+    const menuContent = document.querySelector('.content');
+    const menuToggle = menuContent.querySelector('.menu-toggle');
 
-    menuContent.classList.toggle('on', show);
-    show = !show;
-})
+    menuToggle.addEventListener('click', () => {
+        document.body.style.overflow = show ? 'hidden' : 'initial'
+        menuContent.classList.toggle('on', show);
+        show = !show;
+    });
+});
